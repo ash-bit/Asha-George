@@ -1,0 +1,21 @@
+import pandas as pd
+import seaborn as sb
+import matplotlib.pyplot as plt
+
+
+
+a = sb.load_dataset("flights")
+sb.relplot(x="passengers",y="month",data=a)
+
+a = sb.load_dataset("flights")
+sb.relplot(x="passengers",y="month", hue="year", data=a)
+
+import os
+os.getcwd
+
+import os
+os.getcwd()
+
+a = sb.load_dataset("weatherdata")
+sb.relplot(x="JAN",y="FEB",data=a)
+
